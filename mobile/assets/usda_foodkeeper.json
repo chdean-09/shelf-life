@@ -1,0 +1,127 @@
+{
+  "categories": [
+    {
+      "name": "Vegetables",
+      "items": [
+        { "name": "Potatoes", "pantry_days": 14, "refrigerator_days": 42, "freezer_months": 10, "tips": "Store in cool, dark place" },
+        { "name": "Onions", "pantry_days": 30, "refrigerator_days": 60, "freezer_months": 8, "tips": "Store in cool, dry, well-ventilated place" },
+        { "name": "Tomatoes", "pantry_days": 5, "refrigerator_days": 14, "freezer_months": 2, "tips": "Store at room temperature until ripe, then refrigerate" },
+        { "name": "Carrots", "pantry_days": 3, "refrigerator_days": 28, "freezer_months": 10, "tips": "Remove green tops before storing" },
+        { "name": "Broccoli", "pantry_days": 1, "refrigerator_days": 5, "freezer_months": 12, "tips": "Store unwashed in a loosely closed plastic bag" },
+        { "name": "Lettuce", "pantry_days": 1, "refrigerator_days": 7, "freezer_months": 0, "tips": "Wrap in paper towels and store in crisper drawer" },
+        { "name": "Bell Peppers", "pantry_days": 2, "refrigerator_days": 14, "freezer_months": 6, "tips": "Store unwashed in the vegetable crisper" },
+        { "name": "Spinach", "pantry_days": 1, "refrigerator_days": 5, "freezer_months": 12, "tips": "Store in a sealed container with paper towel" },
+        { "name": "Corn", "pantry_days": 1, "refrigerator_days": 3, "freezer_months": 8, "tips": "Keep husks on until ready to use" },
+        { "name": "Garlic", "pantry_days": 90, "refrigerator_days": 120, "freezer_months": 12, "tips": "Store whole bulbs in a cool, dark place" },
+        { "name": "Celery", "pantry_days": 1, "refrigerator_days": 14, "freezer_months": 10, "tips": "Wrap tightly in aluminum foil" },
+        { "name": "Cucumber", "pantry_days": 2, "refrigerator_days": 7, "freezer_months": 0, "tips": "Wrap in plastic wrap to retain moisture" },
+        { "name": "Mushrooms", "pantry_days": 1, "refrigerator_days": 7, "freezer_months": 10, "tips": "Store in a paper bag, not plastic" },
+        { "name": "Green Beans", "pantry_days": 1, "refrigerator_days": 7, "freezer_months": 8, "tips": "Store unwashed in a plastic bag" },
+        { "name": "Cabbage", "pantry_days": 2, "refrigerator_days": 14, "freezer_months": 10, "tips": "Store whole head in crisper drawer" }
+      ]
+    },
+    {
+      "name": "Fruits",
+      "items": [
+        { "name": "Apples", "pantry_days": 5, "refrigerator_days": 28, "freezer_months": 8, "tips": "Store away from other fruits (produces ethylene)" },
+        { "name": "Bananas", "pantry_days": 5, "refrigerator_days": 7, "freezer_months": 3, "tips": "Store at room temperature until ripe" },
+        { "name": "Oranges", "pantry_days": 7, "refrigerator_days": 21, "freezer_months": 4, "tips": "Store at room temperature for up to a week" },
+        { "name": "Strawberries", "pantry_days": 1, "refrigerator_days": 5, "freezer_months": 6, "tips": "Don't wash until ready to eat" },
+        { "name": "Grapes", "pantry_days": 1, "refrigerator_days": 7, "freezer_months": 3, "tips": "Store unwashed in a perforated bag" },
+        { "name": "Lemons", "pantry_days": 7, "refrigerator_days": 28, "freezer_months": 4, "tips": "Store in the fridge for longer shelf life" },
+        { "name": "Avocados", "pantry_days": 4, "refrigerator_days": 5, "freezer_months": 4, "tips": "Ripen at room temperature, then refrigerate" },
+        { "name": "Watermelon", "pantry_days": 7, "refrigerator_days": 5, "freezer_months": 10, "tips": "Store whole at room temperature; cut watermelon in fridge" },
+        { "name": "Peaches", "pantry_days": 3, "refrigerator_days": 5, "freezer_months": 6, "tips": "Ripen at room temperature, then refrigerate" },
+        { "name": "Mangoes", "pantry_days": 5, "refrigerator_days": 7, "freezer_months": 6, "tips": "Ripen at room temperature, refrigerate when ripe" },
+        { "name": "Blueberries", "pantry_days": 1, "refrigerator_days": 10, "freezer_months": 6, "tips": "Don't wash until ready to eat" },
+        { "name": "Pineapple", "pantry_days": 2, "refrigerator_days": 5, "freezer_months": 6, "tips": "Refrigerate when cut" }
+      ]
+    },
+    {
+      "name": "Dairy",
+      "items": [
+        { "name": "Milk", "pantry_days": 0, "refrigerator_days": 7, "freezer_months": 3, "tips": "Keep at 40°F or below" },
+        { "name": "Eggs", "pantry_days": 0, "refrigerator_days": 35, "freezer_months": 12, "tips": "Store in original carton inside the fridge" },
+        { "name": "Cheese (Hard)", "pantry_days": 0, "refrigerator_days": 42, "freezer_months": 6, "tips": "Wrap tightly in wax paper then plastic wrap" },
+        { "name": "Cheese (Soft)", "pantry_days": 0, "refrigerator_days": 14, "freezer_months": 6, "tips": "Keep sealed in original packaging" },
+        { "name": "Yogurt", "pantry_days": 0, "refrigerator_days": 14, "freezer_months": 2, "tips": "Keep refrigerated at all times" },
+        { "name": "Butter", "pantry_days": 1, "refrigerator_days": 30, "freezer_months": 9, "tips": "Keep wrapped in original packaging" },
+        { "name": "Cream", "pantry_days": 0, "refrigerator_days": 5, "freezer_months": 2, "tips": "Do not refreeze after thawing" },
+        { "name": "Sour Cream", "pantry_days": 0, "refrigerator_days": 14, "freezer_months": 0, "tips": "Store in the coldest part of the fridge" }
+      ]
+    },
+    {
+      "name": "Meat",
+      "items": [
+        { "name": "Chicken Breast", "pantry_days": 0, "refrigerator_days": 2, "freezer_months": 9, "tips": "Store on the lowest shelf of the fridge" },
+        { "name": "Ground Beef", "pantry_days": 0, "refrigerator_days": 2, "freezer_months": 4, "tips": "Use within 1-2 days of purchase" },
+        { "name": "Pork Chops", "pantry_days": 0, "refrigerator_days": 4, "freezer_months": 6, "tips": "Keep in original packaging until use" },
+        { "name": "Steak", "pantry_days": 0, "refrigerator_days": 4, "freezer_months": 12, "tips": "Wrap tightly to prevent freezer burn" },
+        { "name": "Bacon", "pantry_days": 0, "refrigerator_days": 7, "freezer_months": 1, "tips": "Once opened, use within 7 days" },
+        { "name": "Ham", "pantry_days": 0, "refrigerator_days": 5, "freezer_months": 2, "tips": "Wrap tightly and store in the coldest part" },
+        { "name": "Turkey", "pantry_days": 0, "refrigerator_days": 2, "freezer_months": 9, "tips": "Store on a tray to catch any juices" },
+        { "name": "Sausage", "pantry_days": 0, "refrigerator_days": 2, "freezer_months": 2, "tips": "Keep in original packaging" },
+        { "name": "Lamb", "pantry_days": 0, "refrigerator_days": 4, "freezer_months": 9, "tips": "Store on lowest shelf to prevent cross-contamination" }
+      ]
+    },
+    {
+      "name": "Seafood",
+      "items": [
+        { "name": "Fresh Fish", "pantry_days": 0, "refrigerator_days": 2, "freezer_months": 6, "tips": "Use or freeze within 2 days of purchase" },
+        { "name": "Shrimp", "pantry_days": 0, "refrigerator_days": 2, "freezer_months": 6, "tips": "Store on ice in the refrigerator" },
+        { "name": "Salmon", "pantry_days": 0, "refrigerator_days": 2, "freezer_months": 3, "tips": "Wrap tightly and store in the coldest part" },
+        { "name": "Crab", "pantry_days": 0, "refrigerator_days": 2, "freezer_months": 3, "tips": "Keep live crabs until ready to cook" },
+        { "name": "Tuna (Fresh)", "pantry_days": 0, "refrigerator_days": 2, "freezer_months": 3, "tips": "Store on ice in the refrigerator" }
+      ]
+    },
+    {
+      "name": "Bread & Bakery",
+      "items": [
+        { "name": "Bread", "pantry_days": 5, "refrigerator_days": 14, "freezer_months": 3, "tips": "Keep in original packaging at room temperature" },
+        { "name": "Tortillas", "pantry_days": 7, "refrigerator_days": 30, "freezer_months": 8, "tips": "Store opened package in the fridge" },
+        { "name": "Bagels", "pantry_days": 3, "refrigerator_days": 7, "freezer_months": 3, "tips": "Slice before freezing for easy use" },
+        { "name": "Muffins", "pantry_days": 3, "refrigerator_days": 7, "freezer_months": 3, "tips": "Store in airtight container" },
+        { "name": "Cake", "pantry_days": 2, "refrigerator_days": 5, "freezer_months": 4, "tips": "Wrap tightly to prevent drying" }
+      ]
+    },
+    {
+      "name": "Condiments & Sauces",
+      "items": [
+        { "name": "Ketchup", "pantry_days": 180, "refrigerator_days": 365, "freezer_months": 0, "tips": "Refrigerate after opening" },
+        { "name": "Mustard", "pantry_days": 365, "refrigerator_days": 365, "freezer_months": 0, "tips": "Refrigerate after opening" },
+        { "name": "Mayonnaise", "pantry_days": 0, "refrigerator_days": 60, "freezer_months": 0, "tips": "Always refrigerate after opening" },
+        { "name": "Soy Sauce", "pantry_days": 365, "refrigerator_days": 730, "freezer_months": 0, "tips": "Refrigerate for best quality" },
+        { "name": "Hot Sauce", "pantry_days": 365, "refrigerator_days": 730, "freezer_months": 0, "tips": "Store in a cool, dark place" },
+        { "name": "Salsa", "pantry_days": 30, "refrigerator_days": 14, "freezer_months": 2, "tips": "Refrigerate after opening" }
+      ]
+    },
+    {
+      "name": "Grains & Pasta",
+      "items": [
+        { "name": "Rice (White)", "pantry_days": 730, "refrigerator_days": 730, "freezer_months": 0, "tips": "Store in airtight container" },
+        { "name": "Rice (Brown)", "pantry_days": 180, "refrigerator_days": 365, "freezer_months": 12, "tips": "Refrigerate for longer shelf life" },
+        { "name": "Pasta (Dry)", "pantry_days": 730, "refrigerator_days": 730, "freezer_months": 0, "tips": "Store in a cool, dry place" },
+        { "name": "Oatmeal", "pantry_days": 365, "refrigerator_days": 365, "freezer_months": 0, "tips": "Store in airtight container" },
+        { "name": "Flour", "pantry_days": 180, "refrigerator_days": 365, "freezer_months": 24, "tips": "Store in airtight container" }
+      ]
+    },
+    {
+      "name": "Canned Goods",
+      "items": [
+        { "name": "Canned Vegetables", "pantry_days": 730, "refrigerator_days": 4, "freezer_months": 2, "tips": "Store in a cool, dry place. Refrigerator days are for opened cans." },
+        { "name": "Canned Fruits", "pantry_days": 730, "refrigerator_days": 7, "freezer_months": 2, "tips": "Transfer to a glass container after opening" },
+        { "name": "Canned Tuna", "pantry_days": 1095, "refrigerator_days": 4, "freezer_months": 3, "tips": "Transfer to a sealed container after opening" },
+        { "name": "Canned Beans", "pantry_days": 1095, "refrigerator_days": 5, "freezer_months": 2, "tips": "Rinse before using" },
+        { "name": "Canned Soup", "pantry_days": 730, "refrigerator_days": 4, "freezer_months": 3, "tips": "Refrigerate leftovers promptly" }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        { "name": "Juice (Opened)", "pantry_days": 0, "refrigerator_days": 7, "freezer_months": 6, "tips": "Refrigerate after opening" },
+        { "name": "Coffee (Ground)", "pantry_days": 14, "refrigerator_days": 30, "freezer_months": 4, "tips": "Store in airtight container" },
+        { "name": "Tea Bags", "pantry_days": 365, "refrigerator_days": 365, "freezer_months": 0, "tips": "Store in a cool, dry place" }
+      ]
+    }
+  ]
+}

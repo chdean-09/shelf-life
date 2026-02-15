@@ -2,8 +2,9 @@ package main
 
 import (
 	"log"
-	"os"
 
+	"github.com/chdean-09/shelflife/server/config"
+	"github.com/chdean-09/shelflife/server/internal/database"
 	"github.com/chdean-09/shelflife/server/internal/handlers"
 
 	"github.com/gin-gonic/gin"
@@ -16,21 +17,21 @@ func main() {
 		log.Println("No .env file found, using system environment variables")
 	}
 
-	// Get port from environment or use default
-	port := os.Getenv("PORT")
-	if port == "" {
-		port = "8080"
-	}
+	// Load configuration
+	cfg := config.Load()
+
+	// Connect to database
+	db := database.Connect(cfg)
 
 	// Create a new Gin router
 	router := gin.Default()
 
-	// Set up routes
-	handlers.SetupRoutes(router)
+	// Set up routes with database and config
+	handlers.SetupRoutes(router, db, cfg)
 
 	// Start the server
-	log.Printf("🚀 Server starting on port %s", port)
-	if err := router.Run(":" + port); err != nil {
+	log.Printf("🚀 Server starting on port %s", cfg.Port)
+	if err := router.Run(":" + cfg.Port); err != nil {
 		log.Fatal("Failed to start server:", err)
 	}
 }
